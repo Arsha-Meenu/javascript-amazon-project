@@ -4,7 +4,7 @@ import {formatCurrency} from '../scripts/utils/money.js';
 import  {hello} from 'https://unpkg.com/supersimpledev@1.0.1/hello.esm.js'; //named export ie,use with {} //use external lib ,hello and js modules together //here load ESM version of the library.
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js' // this is the default export //use external lib ,dayjs and js modules together
 import {deliveryOptions, getDeliveryOption} from '../../data/deliveryOptions.js';
-
+import {renderPaymentSummary}  from './paymentSummary.js'
 
 //hello(); //external libraries
 // use "dayjs()" external library for delivery dates in checkout page
@@ -108,6 +108,8 @@ export function renderOrderSummary(){
                         removeFromCart(productId);
                         const container = document.querySelector(`.js-cart-item-container-${productId}`);
                         container.remove();
+
+                        renderPaymentSummary();
                 });
         });
         document.querySelectorAll('.js-delivery-option').forEach( (element)=>{
@@ -115,6 +117,9 @@ export function renderOrderSummary(){
             const {productId, deliveryOptionId} =element.dataset
                 updateDeliveryOption(productId , deliveryOptionId);
                 renderOrderSummary();
+
+                renderPaymentSummary();
+
             });
         });
 }

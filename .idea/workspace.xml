@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b73b6a4-5062-49e1-88b1-a23d91b20ab7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/orderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/orderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/paymentSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/paymentSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/deliveryOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/deliveryOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/utils/money.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utils/money.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
